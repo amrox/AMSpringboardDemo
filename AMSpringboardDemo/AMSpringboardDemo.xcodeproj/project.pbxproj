@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3B1012B134D704D0010374A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B1012A134D704D0010374A /* UIKit.framework */; };
+		B3B1012D134D704D0010374A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B1012C134D704D0010374A /* Foundation.framework */; };
+		B3B1012F134D704D0010374A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B1012E134D704D0010374A /* CoreGraphics.framework */; };
+		B3B10135134D704D0010374A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3B10133134D704D0010374A /* InfoPlist.strings */; };
+		B3B10138134D704D0010374A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B10137134D704D0010374A /* main.m */; };
+		B3B1013B134D704D0010374A /* AMSpringboardDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B1013A134D704D0010374A /* AMSpringboardDemoAppDelegate.m */; };
+		B3B1013E134D704D0010374A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3B1013C134D704D0010374A /* MainWindow.xib */; };
+		B3B10151134D704D0010374A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B1012A134D704D0010374A /* UIKit.framework */; };
+		B3B10152134D704D0010374A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B1012C134D704D0010374A /* Foundation.framework */; };
+		B3B10153134D704D0010374A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B1012E134D704D0010374A /* CoreGraphics.framework */; };
+		B3B1015B134D704D0010374A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3B10159134D704D0010374A /* InfoPlist.strings */; };
+		B3B1015E134D704D0010374A /* AMSpringboardDemoTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B3B1015D134D704D0010374A /* AMSpringboardDemoTests.h */; };
+		B3B10160134D704D0010374A /* AMSpringboardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B1015F134D704D0010374A /* AMSpringboardDemoTests.m */; };
+		B3B10173134D7E4D0010374A /* libAMSpringboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B10172134D7E4D0010374A /* libAMSpringboard.a */; };
+		B3B10175134D7E4F0010374A /* libAMUtility.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B10174134D7E4F0010374A /* libAMUtility.a */; };
+		B3B1017C134D80670010374A /* DataProviderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B10177134D80670010374A /* DataProviderViewController.m */; };
+		B3B1017D134D80670010374A /* DataProviderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3B10178134D80670010374A /* DataProviderViewController.xib */; };
+		B3B1017E134D80670010374A /* DataSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B1017A134D80670010374A /* DataSourceViewController.m */; };
+		B3B1017F134D80670010374A /* DataSourceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3B1017B134D80670010374A /* DataSourceViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3B10154134D704D0010374A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3B1011D134D704D0010374A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3B10125134D704D0010374A;
+			remoteInfo = AMSpringboardDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3B10126134D704D0010374A /* AMSpringboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMSpringboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B1012A134D704D0010374A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3B1012C134D704D0010374A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3B1012E134D704D0010374A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3B10132134D704D0010374A /* AMSpringboardDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMSpringboardDemo-Info.plist"; sourceTree = "<group>"; };
+		B3B10134134D704D0010374A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3B10136134D704D0010374A /* AMSpringboardDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMSpringboardDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B3B10137134D704D0010374A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3B10139134D704D0010374A /* AMSpringboardDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMSpringboardDemoAppDelegate.h; sourceTree = "<group>"; };
+		B3B1013A134D704D0010374A /* AMSpringboardDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMSpringboardDemoAppDelegate.m; sourceTree = "<group>"; };
+		B3B1013D134D704D0010374A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B3B10150134D704D0010374A /* AMSpringboardDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMSpringboardDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B10158134D704D0010374A /* AMSpringboardDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMSpringboardDemoTests-Info.plist"; sourceTree = "<group>"; };
+		B3B1015A134D704D0010374A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3B1015C134D704D0010374A /* AMSpringboardDemoTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMSpringboardDemoTests-Prefix.pch"; sourceTree = "<group>"; };
+		B3B1015D134D704D0010374A /* AMSpringboardDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMSpringboardDemoTests.h; sourceTree = "<group>"; };
+		B3B1015F134D704D0010374A /* AMSpringboardDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMSpringboardDemoTests.m; sourceTree = "<group>"; };
+		B3B10172134D7E4D0010374A /* libAMSpringboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAMSpringboard.a; sourceTree = SOURCE_ROOT; };
+		B3B10174134D7E4F0010374A /* libAMUtility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAMUtility.a; sourceTree = SOURCE_ROOT; };
+		B3B10176134D80670010374A /* DataProviderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataProviderViewController.h; sourceTree = "<group>"; };
+		B3B10177134D80670010374A /* DataProviderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataProviderViewController.m; sourceTree = "<group>"; };
+		B3B10178134D80670010374A /* DataProviderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataProviderViewController.xib; sourceTree = "<group>"; };
+		B3B10179134D80670010374A /* DataSourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSourceViewController.h; sourceTree = "<group>"; };
+		B3B1017A134D80670010374A /* DataSourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSourceViewController.m; sourceTree = "<group>"; };
+		B3B1017B134D80670010374A /* DataSourceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataSourceViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3B10123134D704D0010374A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B10175134D7E4F0010374A /* libAMUtility.a in Frameworks */,
+				B3B10173134D7E4D0010374A /* libAMSpringboard.a in Frameworks */,
+				B3B1012B134D704D0010374A /* UIKit.framework in Frameworks */,
+				B3B1012D134D704D0010374A /* Foundation.framework in Frameworks */,
+				B3B1012F134D704D0010374A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B1014C134D704D0010374A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B10151134D704D0010374A /* UIKit.framework in Frameworks */,
+				B3B10152134D704D0010374A /* Foundation.framework in Frameworks */,
+				B3B10153134D704D0010374A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3B1011B134D704D0010374A = {
+			isa = PBXGroup;
+			children = (
+				B3B10130134D704D0010374A /* AMSpringboardDemo */,
+				B3B10156134D704D0010374A /* AMSpringboardDemoTests */,
+				B3B10129134D704D0010374A /* Frameworks */,
+				B3B10127134D704D0010374A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3B10127134D704D0010374A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3B10126134D704D0010374A /* AMSpringboardDemo.app */,
+				B3B10150134D704D0010374A /* AMSpringboardDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3B10129134D704D0010374A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3B10174134D7E4F0010374A /* libAMUtility.a */,
+				B3B10172134D7E4D0010374A /* libAMSpringboard.a */,
+				B3B1012A134D704D0010374A /* UIKit.framework */,
+				B3B1012C134D704D0010374A /* Foundation.framework */,
+				B3B1012E134D704D0010374A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3B10130134D704D0010374A /* AMSpringboardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B3B10139134D704D0010374A /* AMSpringboardDemoAppDelegate.h */,
+				B3B1013A134D704D0010374A /* AMSpringboardDemoAppDelegate.m */,
+				B3B1013C134D704D0010374A /* MainWindow.xib */,
+				B3B10176134D80670010374A /* DataProviderViewController.h */,
+				B3B10177134D80670010374A /* DataProviderViewController.m */,
+				B3B10178134D80670010374A /* DataProviderViewController.xib */,
+				B3B10179134D80670010374A /* DataSourceViewController.h */,
+				B3B1017A134D80670010374A /* DataSourceViewController.m */,
+				B3B1017B134D80670010374A /* DataSourceViewController.xib */,
+				B3B10131134D704D0010374A /* Supporting Files */,
+			);
+			path = AMSpringboardDemo;
+			sourceTree = "<group>";
+		};
+		B3B10131134D704D0010374A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3B10132134D704D0010374A /* AMSpringboardDemo-Info.plist */,
+				B3B10133134D704D0010374A /* InfoPlist.strings */,
+				B3B10136134D704D0010374A /* AMSpringboardDemo-Prefix.pch */,
+				B3B10137134D704D0010374A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3B10156134D704D0010374A /* AMSpringboardDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3B1015D134D704D0010374A /* AMSpringboardDemoTests.h */,
+				B3B1015F134D704D0010374A /* AMSpringboardDemoTests.m */,
+				B3B10157134D704D0010374A /* Supporting Files */,
+			);
+			path = AMSpringboardDemoTests;
+			sourceTree = "<group>";
+		};
+		B3B10157134D704D0010374A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3B10158134D704D0010374A /* AMSpringboardDemoTests-Info.plist */,
+				B3B10159134D704D0010374A /* InfoPlist.strings */,
+				B3B1015C134D704D0010374A /* AMSpringboardDemoTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3B10125134D704D0010374A /* AMSpringboardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3B10163134D704D0010374A /* Build configuration list for PBXNativeTarget "AMSpringboardDemo" */;
+			buildPhases = (
+				B3B10122134D704D0010374A /* Sources */,
+				B3B10123134D704D0010374A /* Frameworks */,
+				B3B10124134D704D0010374A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMSpringboardDemo;
+			productName = AMSpringboardDemo;
+			productReference = B3B10126134D704D0010374A /* AMSpringboardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3B1014F134D704D0010374A /* AMSpringboardDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3B10166134D704D0010374A /* Build configuration list for PBXNativeTarget "AMSpringboardDemoTests" */;
+			buildPhases = (
+				B3B1014B134D704D0010374A /* Sources */,
+				B3B1014C134D704D0010374A /* Frameworks */,
+				B3B1014D134D704D0010374A /* Resources */,
+				B3B1014E134D704D0010374A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3B10155134D704D0010374A /* PBXTargetDependency */,
+			);
+			name = AMSpringboardDemoTests;
+			productName = AMSpringboardDemoTests;
+			productReference = B3B10150134D704D0010374A /* AMSpringboardDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3B1011D134D704D0010374A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = MindSnacks;
+			};
+			buildConfigurationList = B3B10120134D704D0010374A /* Build configuration list for PBXProject "AMSpringboardDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3B1011B134D704D0010374A;
+			productRefGroup = B3B10127134D704D0010374A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3B10125134D704D0010374A /* AMSpringboardDemo */,
+				B3B1014F134D704D0010374A /* AMSpringboardDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3B10124134D704D0010374A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B10135134D704D0010374A /* InfoPlist.strings in Resources */,
+				B3B1013E134D704D0010374A /* MainWindow.xib in Resources */,
+				B3B1017D134D80670010374A /* DataProviderViewController.xib in Resources */,
+				B3B1017F134D80670010374A /* DataSourceViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B1014D134D704D0010374A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B1015B134D704D0010374A /* InfoPlist.strings in Resources */,
+				B3B1015E134D704D0010374A /* AMSpringboardDemoTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3B1014E134D704D0010374A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3B10122134D704D0010374A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B10138134D704D0010374A /* main.m in Sources */,
+				B3B1013B134D704D0010374A /* AMSpringboardDemoAppDelegate.m in Sources */,
+				B3B1017C134D80670010374A /* DataProviderViewController.m in Sources */,
+				B3B1017E134D80670010374A /* DataSourceViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B1014B134D704D0010374A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B10160134D704D0010374A /* AMSpringboardDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3B10155134D704D0010374A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3B10125134D704D0010374A /* AMSpringboardDemo */;
+			targetProxy = B3B10154134D704D0010374A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3B10133134D704D0010374A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3B10134134D704D0010374A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3B1013C134D704D0010374A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3B1013D134D704D0010374A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B3B10159134D704D0010374A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3B1015A134D704D0010374A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3B10161134D704D0010374A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3B10162134D704D0010374A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B3B10164134D704D0010374A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMSpringboardDemo/AMSpringboardDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$BUILT_PRODUCTS_DIR/**";
+				INFOPLIST_FILE = "AMSpringboardDemo/AMSpringboardDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3B10165134D704D0010374A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMSpringboardDemo/AMSpringboardDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$BUILT_PRODUCTS_DIR/**";
+				INFOPLIST_FILE = "AMSpringboardDemo/AMSpringboardDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B3B10167134D704D0010374A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AMSpringboardDemo.app/AMSpringboardDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMSpringboardDemoTests/AMSpringboardDemoTests-Prefix.pch";
+				INFOPLIST_FILE = "AMSpringboardDemoTests/AMSpringboardDemoTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B3B10168134D704D0010374A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AMSpringboardDemo.app/AMSpringboardDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMSpringboardDemoTests/AMSpringboardDemoTests-Prefix.pch";
+				INFOPLIST_FILE = "AMSpringboardDemoTests/AMSpringboardDemoTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3B10120134D704D0010374A /* Build configuration list for PBXProject "AMSpringboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B10161134D704D0010374A /* Debug */,
+				B3B10162134D704D0010374A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3B10163134D704D0010374A /* Build configuration list for PBXNativeTarget "AMSpringboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B10164134D704D0010374A /* Debug */,
+				B3B10165134D704D0010374A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3B10166134D704D0010374A /* Build configuration list for PBXNativeTarget "AMSpringboardDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B10167134D704D0010374A /* Debug */,
+				B3B10168134D704D0010374A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3B1011D134D704D0010374A /* Project object */;
+}

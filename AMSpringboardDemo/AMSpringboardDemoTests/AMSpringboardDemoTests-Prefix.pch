@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'AMSpringboardDemoTests' target in the 'AMSpringboardDemoTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
