@@ -5,9 +5,9 @@
       location = "group:AMSpringboardDemo/AMSpringboardDemo.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:AMUtility/AMUtility.xcodeproj">
+      location = "group:AMSpringboard/AMSpringboard.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:AMSpringboard/AMSpringboard.xcodeproj">
+      location = "group:AMFoundation/AMFoundation.xcodeproj">
    </FileRef>
 </Workspace>

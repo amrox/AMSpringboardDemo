@@ -10,7 +10,7 @@
 
 #import <AMSpringboard/AMSpringboard.h>
 #import <AMSpringboard/AMSpringboardView.h>
-#import <AMUtility/AMUtility.h>
+#import <AMFoundation/AMFoundation.h>
 
 //#import "AMSpringboardViewCell.h"
 
