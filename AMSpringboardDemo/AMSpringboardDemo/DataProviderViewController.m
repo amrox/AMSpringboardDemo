@@ -75,8 +75,8 @@
     NSString* path = [[NSBundle mainBundle] pathForResource:@"Springboard" ofType:@"plist"];
     self.dataProvider = [AMSpringboardDataProvider dataProviderFromPlistWithPath:path error:&error];
     
-    // -- set view
-    self.dataProvider.springboardView = self.springboardView;
+    // -- set data source
+    self.springboardView.dataSource = self.dataProvider;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
