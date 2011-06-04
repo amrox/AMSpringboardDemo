@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B31F744C137E4C8000250779 /* libAMFoundation_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B31F744B137E4C8000250779 /* libAMFoundation_iOS.a */; };
-		B31F744E137E4C8400250779 /* libAMSpringboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B31F744D137E4C8400250779 /* libAMSpringboard.a */; };
 		B31F7452137E4DDA00250779 /* beer-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B31F7450137E4DDA00250779 /* beer-icon.png */; };
 		B31F7453137E4DDA00250779 /* Springboard.plist in Resources */ = {isa = PBXBuildFile; fileRef = B31F7451137E4DDA00250779 /* Springboard.plist */; };
 		B3B1012B134D704D0010374A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B1012A134D704D0010374A /* UIKit.framework */; };
@@ -28,6 +26,8 @@
 		B3B1017D134D80670010374A /* DataProviderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3B10178134D80670010374A /* DataProviderViewController.xib */; };
 		B3B1017E134D80670010374A /* DataSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B1017A134D80670010374A /* DataSourceViewController.m */; };
 		B3B1017F134D80670010374A /* DataSourceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3B1017B134D80670010374A /* DataSourceViewController.xib */; };
+		B3D5E60C139AAC3500220888 /* libAMFoundation_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D5E60B139AAC3500220888 /* libAMFoundation_iOS.a */; };
+		B3D5E60E139AAC3A00220888 /* libAMSpringboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D5E60D139AAC3A00220888 /* libAMSpringboard.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B31F744B137E4C8000250779 /* libAMFoundation_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAMFoundation_iOS.a; sourceTree = SOURCE_ROOT; };
-		B31F744D137E4C8400250779 /* libAMSpringboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAMSpringboard.a; sourceTree = SOURCE_ROOT; };
 		B31F7450137E4DDA00250779 /* beer-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beer-icon.png"; sourceTree = "<group>"; };
 		B31F7451137E4DDA00250779 /* Springboard.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Springboard.plist; sourceTree = "<group>"; };
 		B3B10126134D704D0010374A /* AMSpringboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMSpringboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +66,8 @@
 		B3B10179134D80670010374A /* DataSourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSourceViewController.h; sourceTree = "<group>"; };
 		B3B1017A134D80670010374A /* DataSourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSourceViewController.m; sourceTree = "<group>"; };
 		B3B1017B134D80670010374A /* DataSourceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataSourceViewController.xib; sourceTree = "<group>"; };
+		B3D5E60B139AAC3500220888 /* libAMFoundation_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAMFoundation_iOS.a; sourceTree = SOURCE_ROOT; };
+		B3D5E60D139AAC3A00220888 /* libAMSpringboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAMSpringboard.a; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B31F744E137E4C8400250779 /* libAMSpringboard.a in Frameworks */,
-				B31F744C137E4C8000250779 /* libAMFoundation_iOS.a in Frameworks */,
+				B3D5E60E139AAC3A00220888 /* libAMSpringboard.a in Frameworks */,
+				B3D5E60C139AAC3500220888 /* libAMFoundation_iOS.a in Frameworks */,
 				B3B1012B134D704D0010374A /* UIKit.framework in Frameworks */,
 				B3B1012D134D704D0010374A /* Foundation.framework in Frameworks */,
 				B3B1012F134D704D0010374A /* CoreGraphics.framework in Frameworks */,
@@ -127,8 +127,8 @@
 		B3B10129134D704D0010374A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B31F744D137E4C8400250779 /* libAMSpringboard.a */,
-				B31F744B137E4C8000250779 /* libAMFoundation_iOS.a */,
+				B3D5E60D139AAC3A00220888 /* libAMSpringboard.a */,
+				B3D5E60B139AAC3500220888 /* libAMFoundation_iOS.a */,
 				B3B1012A134D704D0010374A /* UIKit.framework */,
 				B3B1012C134D704D0010374A /* Foundation.framework */,
 				B3B1012E134D704D0010374A /* CoreGraphics.framework */,
@@ -395,10 +395,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -417,10 +414,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
