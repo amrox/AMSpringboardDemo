@@ -230,6 +230,7 @@
 		B3B1011D134D704D0010374A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = MindSnacks;
 			};
 			buildConfigurationList = B3B10120134D704D0010374A /* Build configuration list for PBXProject "AMSpringboardDemo" */;
@@ -389,6 +390,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AMSpringboardDemo/AMSpringboardDemo-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "$BUILT_PRODUCTS_DIR/**";
 				INFOPLIST_FILE = "AMSpringboardDemo/AMSpringboardDemo-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -408,6 +410,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AMSpringboardDemo/AMSpringboardDemo-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "$BUILT_PRODUCTS_DIR/**";
 				INFOPLIST_FILE = "AMSpringboardDemo/AMSpringboardDemo-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -432,6 +435,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AMSpringboardDemoTests/AMSpringboardDemoTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "AMSpringboardDemoTests/AMSpringboardDemoTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -454,6 +458,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AMSpringboardDemoTests/AMSpringboardDemoTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "AMSpringboardDemoTests/AMSpringboardDemoTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",

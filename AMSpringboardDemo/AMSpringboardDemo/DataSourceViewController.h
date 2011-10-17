@@ -9,11 +9,7 @@
 #import <UIKit/UIKit.h>
 
 #import <AMSpringboard/AMSpringboardView.h>
-//#import "AMSpringboardView.h"
 
 @interface DataSourceViewController : UIViewController <AMSpringboardViewDataSource, AMSpringboardViewDelegate>
-{
-    
-}
 
 @end
