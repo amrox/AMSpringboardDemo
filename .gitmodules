@@ -1,6 +1,0 @@
-[submodule "AMSpringboard"]
-	path = AMSpringboard
-	url = git://github.com/amrox/AMSpringboard.git
-[submodule "AMFoundation"]
-	path = AMFoundation
-	url = git://github.com/amrox/AMFoundation.git
